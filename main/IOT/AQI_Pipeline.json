@@ -1,0 +1,837 @@
+{
+  "pipeline_name": "AQI_Pipeline",
+  "domain": "IOT",
+  "version": "2.0",
+  "definition": {
+    "edges": [
+      {
+        "id": "xy-edge__dndnode_0_1774006439144output-dndnode_0_1774006439144-dndnode_1_1774008008276input-dndnode_1_1774008008276",
+        "source": "dndnode_0_1774006439144",
+        "target": "dndnode_1_1774008008276",
+        "sourceHandle": "output-dndnode_0_1774006439144",
+        "targetHandle": "input-dndnode_1_1774008008276"
+      },
+      {
+        "id": "xy-edge__dndnode_3_1774008185528output-dndnode_3_1774008185528-dndnode_4_1774008211242input-dndnode_4_1774008211242",
+        "source": "dndnode_3_1774008185528",
+        "target": "dndnode_4_1774008211242",
+        "sourceHandle": "output-dndnode_3_1774008185528",
+        "targetHandle": "input-dndnode_4_1774008211242"
+      },
+      {
+        "id": "xy-edge__dndnode_4_1774008211242output-dndnode_4_1774008211242-dndnode_5_1774008217740input-dndnode_5_1774008217740",
+        "source": "dndnode_4_1774008211242",
+        "target": "dndnode_5_1774008217740",
+        "sourceHandle": "output-dndnode_4_1774008211242",
+        "targetHandle": "input-dndnode_5_1774008217740"
+      },
+      {
+        "id": "xy-edge__dndnode_1_1774008008276output-dndnode_1_1774008008276-dndnode_8_1774008723997input-dndnode_8_1774008723997",
+        "source": "dndnode_1_1774008008276",
+        "target": "dndnode_8_1774008723997",
+        "sourceHandle": "output-dndnode_1_1774008008276",
+        "targetHandle": "input-dndnode_8_1774008723997"
+      },
+      {
+        "id": "xy-edge__dndnode_8_1774008723997output-dndnode_8_1774008723997-dndnode_0_1774009368472input-dndnode_0_1774009368472",
+        "source": "dndnode_8_1774008723997",
+        "target": "dndnode_0_1774009368472",
+        "sourceHandle": "output-dndnode_8_1774008723997",
+        "targetHandle": "input-dndnode_0_1774009368472"
+      },
+      {
+        "id": "xy-edge__dndnode_2_1774009410493output-dndnode_2_1774009410493-dndnode_6_1774009733895input-dndnode_6_1774009733895",
+        "source": "dndnode_2_1774009410493",
+        "target": "dndnode_6_1774009733895",
+        "sourceHandle": "output-dndnode_2_1774009410493",
+        "targetHandle": "input-dndnode_6_1774009733895"
+      },
+      {
+        "id": "xy-edge__dndnode_0_1774009368472output-dndnode_0_1774009368472-dndnode_7_1774009888585input-dndnode_7_1774009888585",
+        "source": "dndnode_0_1774009368472",
+        "target": "dndnode_7_1774009888585",
+        "sourceHandle": "output-dndnode_0_1774009368472",
+        "targetHandle": "input-dndnode_7_1774009888585"
+      },
+      {
+        "id": "xy-edge__dndnode_9_1774009961261output-dndnode_9_1774009961261-dndnode_10_1774010000525input-dndnode_10_1774010000525",
+        "source": "dndnode_9_1774009961261",
+        "target": "dndnode_10_1774010000525",
+        "sourceHandle": "output-dndnode_9_1774009961261",
+        "targetHandle": "input-dndnode_10_1774010000525"
+      },
+      {
+        "id": "xy-edge__dndnode_10_1774010000525output-dndnode_10_1774010000525-dndnode_11_1774010023063output-dndnode_11_1774010023063",
+        "source": "dndnode_10_1774010000525",
+        "target": "dndnode_11_1774010023063",
+        "sourceHandle": "output-dndnode_10_1774010000525",
+        "targetHandle": "output-dndnode_11_1774010023063"
+      },
+      {
+        "id": "xy-edge__dndnode_5_1774008217740output-dndnode_5_1774008217740-dndnode_0_1774249862447input-dndnode_0_1774249862447",
+        "source": "dndnode_5_1774008217740",
+        "target": "dndnode_0_1774249862447",
+        "sourceHandle": "output-dndnode_5_1774008217740",
+        "targetHandle": "input-dndnode_0_1774249862447"
+      },
+      {
+        "id": "xy-edge__dndnode_0_1774249862447output-dndnode_0_1774249862447-dndnode_2_1774009410493input-dndnode_2_1774009410493",
+        "source": "dndnode_0_1774249862447",
+        "target": "dndnode_2_1774009410493",
+        "sourceHandle": "output-dndnode_0_1774249862447",
+        "targetHandle": "input-dndnode_2_1774009410493"
+      },
+      {
+        "id": "xy-edge__dndnode_0_1773990655570output-dndnode_0_1773990655570-dndnode_0_1774006439144input-dndnode_0_1774006439144",
+        "source": "dndnode_0_1773990655570",
+        "target": "dndnode_0_1774006439144",
+        "sourceHandle": "output-dndnode_0_1773990655570",
+        "targetHandle": "input-dndnode_0_1774006439144"
+      },
+      {
+        "id": "xy-edge__dndnode_8_1774009940673output-dndnode_8_1774009940673-dndnode_10_1774010000525input-dndnode_10_1774010000525",
+        "source": "dndnode_8_1774009940673",
+        "target": "dndnode_10_1774010000525",
+        "sourceHandle": "output-dndnode_8_1774009940673",
+        "targetHandle": "input-dndnode_10_1774010000525"
+      },
+      {
+        "id": "xy-edge__dndnode_0_1774266078510output-dndnode_0_1774266078510-dndnode_1_1774266081148input-dndnode_1_1774266081148",
+        "source": "dndnode_0_1774266078510",
+        "target": "dndnode_1_1774266081148",
+        "sourceHandle": "output-dndnode_0_1774266078510",
+        "targetHandle": "input-dndnode_1_1774266081148"
+      },
+      {
+        "id": "xy-edge__dndnode_7_1774009888585output-dndnode_7_1774009888585-dndnode_0_1774266078510input-dndnode_0_1774266078510",
+        "source": "dndnode_7_1774009888585",
+        "target": "dndnode_0_1774266078510",
+        "sourceHandle": "output-dndnode_7_1774009888585",
+        "targetHandle": "input-dndnode_0_1774266078510"
+      },
+      {
+        "id": "xy-edge__dndnode_1_1774266081148output-dndnode_1_1774266081148-dndnode_3_1774266669523input-dndnode_3_1774266669523",
+        "source": "dndnode_1_1774266081148",
+        "target": "dndnode_3_1774266669523",
+        "sourceHandle": "output-dndnode_1_1774266081148",
+        "targetHandle": "input-dndnode_3_1774266669523"
+      },
+      {
+        "id": "xy-edge__dndnode_3_1774266669523output-dndnode_3_1774266669523-dndnode_8_1774009940673input-dndnode_8_1774009940673",
+        "source": "dndnode_3_1774266669523",
+        "target": "dndnode_8_1774009940673",
+        "sourceHandle": "output-dndnode_3_1774266669523",
+        "targetHandle": "input-dndnode_8_1774009940673"
+      },
+      {
+        "id": "xy-edge__dndnode_6_1774009733895output-dndnode_6_1774009733895-dndnode_4_1774266714327input-dndnode_4_1774266714327",
+        "source": "dndnode_6_1774009733895",
+        "target": "dndnode_4_1774266714327",
+        "sourceHandle": "output-dndnode_6_1774009733895",
+        "targetHandle": "input-dndnode_4_1774266714327"
+      },
+      {
+        "id": "xy-edge__dndnode_4_1774266714327output-dndnode_4_1774266714327-dndnode_5_1774266716099input-dndnode_5_1774266716099",
+        "source": "dndnode_4_1774266714327",
+        "target": "dndnode_5_1774266716099",
+        "sourceHandle": "output-dndnode_4_1774266714327",
+        "targetHandle": "input-dndnode_5_1774266716099"
+      },
+      {
+        "id": "xy-edge__dndnode_5_1774266716099output-dndnode_5_1774266716099-dndnode_6_1774266717577input-dndnode_6_1774266717577",
+        "source": "dndnode_5_1774266716099",
+        "target": "dndnode_6_1774266717577",
+        "sourceHandle": "output-dndnode_5_1774266716099",
+        "targetHandle": "input-dndnode_6_1774266717577"
+      },
+      {
+        "id": "xy-edge__dndnode_6_1774266717577output-dndnode_6_1774266717577-dndnode_9_1774009961261input-dndnode_9_1774009961261",
+        "source": "dndnode_6_1774266717577",
+        "target": "dndnode_9_1774009961261",
+        "sourceHandle": "output-dndnode_6_1774266717577",
+        "targetHandle": "input-dndnode_9_1774009961261"
+      }
+    ],
+    "nodes": [
+      {
+        "id": "dndnode_1_1774008008276",
+        "data": {
+          "label": "Type Conversion",
+          "config": {
+            "columns": [
+              "TREND_PACKET_DATE"
+            ],
+            "dataType": "date",
+            "writeMode": "replace",
+            "conversionType": "cast"
+          }
+        },
+        "type": "Type Conversion",
+        "style": {
+          "width": 198,
+          "height": 70
+        },
+        "dragging": false,
+        "measured": {
+          "width": 198,
+          "height": 70
+        },
+        "position": {
+          "x": 567.0939999999999,
+          "y": -73.45399796549478
+        },
+        "selected": false
+      },
+      {
+        "id": "dndnode_3_1774008185528",
+        "data": {
+          "label": "Data Source",
+          "config": {
+            "path": "/IOT/IOT_cmvsummary_data",
+            "format": "parquet"
+          }
+        },
+        "type": "Data Source",
+        "style": {
+          "width": 198,
+          "height": 70
+        },
+        "dragging": false,
+        "measured": {
+          "width": 198,
+          "height": 70
+        },
+        "position": {
+          "x": 29.094000000000037,
+          "y": 77.21266870117189
+        },
+        "selected": false
+      },
+      {
+        "id": "dndnode_4_1774008211242",
+        "data": {
+          "label": "Derived Column",
+          "config": {
+            "mode": "create",
+            "type": "others",
+            "operation": "element_at",
+            "sourceColumn": "trendTimeBucketsUserTimezone",
+            "newColumnName": "TREND_PACKET_DATE",
+            "elementAtIndex": 1
+          }
+        },
+        "type": "Derived Column",
+        "style": {
+          "width": 198,
+          "height": 70
+        },
+        "dragging": false,
+        "measured": {
+          "width": 198,
+          "height": 70
+        },
+        "position": {
+          "x": 297.094,
+          "y": 78.54600203450522
+        },
+        "selected": false
+      },
+      {
+        "id": "dndnode_5_1774008217740",
+        "data": {
+          "label": "Type Conversion",
+          "config": {
+            "columns": [
+              "TREND_PACKET_DATE"
+            ],
+            "dataType": "date",
+            "writeMode": "replace",
+            "conversionType": "cast"
+          }
+        },
+        "type": "Type Conversion",
+        "style": {
+          "width": 198,
+          "height": 70
+        },
+        "dragging": false,
+        "measured": {
+          "width": 198,
+          "height": 70
+        },
+        "position": {
+          "x": 571.0939999999999,
+          "y": 77.21266870117188
+        },
+        "selected": false
+      },
+      {
+        "id": "dndnode_8_1774008723997",
+        "data": {
+          "label": "Window",
+          "config": {
+            "orderBy": [
+              "DATE_TIME"
+            ],
+            "function": "row_number",
+            "partitionBy": [
+              "spaceTid",
+              "TREND_PACKET_DATE"
+            ],
+            "newColumnName": "rn"
+          }
+        },
+        "type": "Window",
+        "style": {
+          "width": 198,
+          "height": 70
+        },
+        "dragging": false,
+        "measured": {
+          "width": 198,
+          "height": 70
+        },
+        "position": {
+          "x": 809.838344599256,
+          "y": -72.67730134527153
+        },
+        "selected": false
+      },
+      {
+        "id": "dndnode_0_1774009368472",
+        "data": {
+          "label": "Filter",
+          "config": {
+            "logic": "and",
+            "filter": [
+              {
+                "value": "1",
+                "column": "rn",
+                "operator": "eq"
+              },
+              {
+                "column": "spaceTid",
+                "operator": "isNotNull"
+              }
+            ]
+          }
+        },
+        "type": "Filter",
+        "style": {
+          "width": 198,
+          "height": 70
+        },
+        "dragging": false,
+        "measured": {
+          "width": 198,
+          "height": 70
+        },
+        "position": {
+          "x": 1054.4985243205954,
+          "y": -74.69684488692107
+        },
+        "selected": false
+      },
+      {
+        "id": "dndnode_2_1774009410493",
+        "data": {
+          "label": "Filter",
+          "config": {
+            "logic": "and",
+            "filter": [
+              {
+                "value": "1",
+                "column": "rn",
+                "operator": "eq"
+              }
+            ]
+          }
+        },
+        "type": "Filter",
+        "style": {
+          "width": 198,
+          "height": 70
+        },
+        "dragging": false,
+        "measured": {
+          "width": 198,
+          "height": 70
+        },
+        "position": {
+          "x": 1049.2752209408188,
+          "y": 71.55564974682778
+        },
+        "selected": false
+      },
+      {
+        "id": "dndnode_6_1774009733895",
+        "data": {
+          "label": "Pose Explode",
+          "config": {
+            "function": "posexplode",
+            "inputColumn": "trendTimeBucketsUserTimezone",
+            "valueColumn": "Trend_Time",
+            "positionColumn": "pos"
+          }
+        },
+        "type": "Pose Explode",
+        "style": {
+          "width": 198,
+          "height": 70
+        },
+        "dragging": false,
+        "measured": {
+          "width": 198,
+          "height": 70
+        },
+        "position": {
+          "x": 1289.475985423287,
+          "y": 71.55564974682777
+        },
+        "selected": false
+      },
+      {
+        "id": "dndnode_7_1774009888585",
+        "data": {
+          "label": "Pose Explode",
+          "config": {
+            "function": "posexplode",
+            "inputColumn": "trendTimeBucketsUserTimezone",
+            "valueColumn": "Trend_Time",
+            "positionColumn": "pos"
+          }
+        },
+        "type": "Pose Explode",
+        "style": {
+          "width": 198,
+          "height": 70
+        },
+        "dragging": false,
+        "measured": {
+          "width": 198,
+          "height": 70
+        },
+        "position": {
+          "x": 1289.547176410549,
+          "y": -72.95574376032883
+        },
+        "selected": false
+      },
+      {
+        "id": "dndnode_8_1774009940673",
+        "data": {
+          "label": "Select",
+          "config": {
+            "columns": [
+              "tdid",
+              "visits",
+              "uniqueVisitors",
+              "visitTrend",
+              "DATE_TIME",
+              "tenantCode",
+              "TREND_PACKET_DATE",
+              "Trend_Time",
+              "Trend_Hour",
+              "Trend_Month",
+              "Trend_Year"
+            ],
+            "columnConfig": [
+              {
+                "alias": "",
+                "column": "tdid"
+              },
+              {
+                "alias": "",
+                "column": "visits"
+              },
+              {
+                "alias": "",
+                "column": "uniqueVisitors"
+              },
+              {
+                "alias": "",
+                "column": "visitTrend",
+                "indexColumn": "pos"
+              },
+              {
+                "alias": "",
+                "column": "DATE_TIME"
+              },
+              {
+                "alias": "",
+                "column": "tenantCode"
+              },
+              {
+                "alias": "",
+                "column": "TREND_PACKET_DATE"
+              },
+              {
+                "alias": "",
+                "column": "Trend_Time"
+              },
+              {
+                "alias": "",
+                "column": "Trend_Hour"
+              },
+              {
+                "alias": "",
+                "column": "Trend_Month"
+              },
+              {
+                "alias": "",
+                "column": "Trend_Year"
+              }
+            ]
+          }
+        },
+        "type": "Select",
+        "style": {
+          "width": 198,
+          "height": 70
+        },
+        "dragging": false,
+        "measured": {
+          "width": 198,
+          "height": 70
+        },
+        "position": {
+          "x": 1733.8484838329944,
+          "y": -78.95574376032886
+        },
+        "selected": false
+      },
+      {
+        "id": "dndnode_9_1774009961261",
+        "data": {
+          "label": "Select",
+          "config": {
+            "columns": [
+              "tdid",
+              "visits",
+              "uniqueVisitors",
+              "visitTrend",
+              "DATE_TIME",
+              "tenantCode",
+              "TREND_PACKET_DATE",
+              "Trend_Time",
+              "Trend_Hour",
+              "Trend_Month",
+              "Trend_Year"
+            ],
+            "columnConfig": [
+              {
+                "alias": "",
+                "column": "tdid"
+              },
+              {
+                "alias": "",
+                "column": "visits"
+              },
+              {
+                "alias": "",
+                "column": "uniqueVisitors"
+              },
+              {
+                "alias": "",
+                "column": "visitTrend",
+                "indexColumn": "pos"
+              },
+              {
+                "alias": "",
+                "column": "DATE_TIME"
+              },
+              {
+                "alias": "",
+                "column": "tenantCode"
+              },
+              {
+                "alias": "",
+                "column": "TREND_PACKET_DATE"
+              },
+              {
+                "alias": "",
+                "column": "Trend_Time"
+              },
+              {
+                "alias": "",
+                "column": "Trend_Hour"
+              },
+              {
+                "alias": "",
+                "column": "Trend_Month"
+              },
+              {
+                "alias": "",
+                "column": "Trend_Year"
+              }
+            ]
+          }
+        },
+        "type": "Select",
+        "style": {
+          "width": 198,
+          "height": 70
+        },
+        "dragging": false,
+        "measured": {
+          "width": 198,
+          "height": 70
+        },
+        "position": {
+          "x": 1739.06744880379,
+          "y": 66.29087009936973
+        },
+        "selected": false
+      },
+      {
+        "id": "dndnode_10_1774010000525",
+        "data": {
+          "label": "Union",
+          "config": {
+            "mode": "name"
+          }
+        },
+        "type": "Union",
+        "style": {
+          "width": 198,
+          "height": 70
+        },
+        "dragging": false,
+        "measured": {
+          "width": 198,
+          "height": 70
+        },
+        "position": {
+          "x": 2016.0198963627477,
+          "y": -8.793900949823389
+        },
+        "selected": false
+      },
+      {
+        "id": "dndnode_11_1774010023063",
+        "data": {
+          "label": "Output",
+          "config": {
+            "mode": "overwrite",
+            "path": "/DLH/output/aqi_data_8",
+            "format": "parquet"
+          }
+        },
+        "type": "Output",
+        "style": {
+          "width": 198,
+          "height": 70
+        },
+        "dragging": false,
+        "measured": {
+          "width": 198,
+          "height": 70
+        },
+        "position": {
+          "x": 2277.1624023957734,
+          "y": -8.088395316862147
+        },
+        "selected": false
+      },
+      {
+        "id": "dndnode_0_1774249862447",
+        "data": {
+          "label": "Window",
+          "config": {
+            "orderBy": [
+              "DATE_TIME"
+            ],
+            "function": "row_number",
+            "partitionBy": [
+              "TREND_PACKET_DATE"
+            ],
+            "newColumnName": "rn"
+          }
+        },
+        "type": "Window",
+        "style": {
+          "width": 198,
+          "height": 70
+        },
+        "dragging": false,
+        "measured": {
+          "width": 198,
+          "height": 70
+        },
+        "position": {
+          "x": 807.0940000000002,
+          "y": 74.54600203450522
+        },
+        "selected": false
+      },
+      {
+        "id": "dndnode_0_1774266078510",
+        "data": {
+          "label": "Type Conversion",
+          "config": {
+            "column": "Trend_Time",
+            "format": "HH:mm",
+            "newColumn": "Trend_Hour",
+            "writeMode": "new",
+            "conversionType": "date_format"
+          }
+        },
+        "type": "Type Conversion",
+        "style": {
+          "width": 198,
+          "height": 70
+        },
+        "dragging": false,
+        "measured": {
+          "width": 198,
+          "height": 70
+        },
+        "position": {
+          "x": 1253.3689163446404,
+          "y": -287.5795483276481
+        },
+        "selected": false
+      },
+      {
+        "id": "dndnode_1_1774266081148",
+        "data": {
+          "label": "Type Conversion",
+          "config": {
+            "column": "Trend_Time",
+            "format": "MMM",
+            "newColumn": "Trend_Month",
+            "writeMode": "new",
+            "conversionType": "date_format"
+          }
+        },
+        "type": "Type Conversion",
+        "style": {
+          "width": 198,
+          "height": 70
+        },
+        "dragging": false,
+        "measured": {
+          "width": 198,
+          "height": 70
+        },
+        "position": {
+          "x": 1507.883566986304,
+          "y": -288.54811519462737
+        },
+        "selected": false
+      },
+      {
+        "id": "dndnode_3_1774266669523",
+        "data": {
+          "label": "Type Conversion",
+          "config": {
+            "column": "Trend_Time",
+            "format": "yyyy",
+            "newColumn": "Trend_Year",
+            "writeMode": "new",
+            "conversionType": "date_format"
+          }
+        },
+        "type": "Type Conversion",
+        "style": {
+          "width": 198,
+          "height": 70
+        },
+        "dragging": false,
+        "measured": {
+          "width": 198,
+          "height": 70
+        },
+        "position": {
+          "x": 1790.8196347954154,
+          "y": -290.54811519462737
+        },
+        "selected": false
+      },
+      {
+        "id": "dndnode_4_1774266714327",
+        "data": {
+          "label": "Type Conversion",
+          "config": {
+            "column": "Trend_Time",
+            "format": "HH:mm",
+            "newColumn": "Trend_Hour",
+            "writeMode": "new",
+            "conversionType": "date_format"
+          }
+        },
+        "type": "Type Conversion",
+        "style": {
+          "width": 198,
+          "height": 70
+        },
+        "dragging": false,
+        "measured": {
+          "width": 198,
+          "height": 70
+        },
+        "position": {
+          "x": 1329.7812754808826,
+          "y": 263.50782488990194
+        },
+        "selected": false
+      },
+      {
+        "id": "dndnode_5_1774266716099",
+        "data": {
+          "label": "Type Conversion",
+          "config": {
+            "column": "Trend_Time",
+            "format": "MMM",
+            "newColumn": "Trend_Month",
+            "writeMode": "new",
+            "conversionType": "date_format"
+          }
+        },
+        "type": "Type Conversion",
+        "style": {
+          "width": 198,
+          "height": 70
+        },
+        "dragging": false,
+        "measured": {
+          "width": 198,
+          "height": 70
+        },
+        "position": {
+          "x": 1569.7812754808826,
+          "y": 261.50782488990194
+        },
+        "selected": false
+      },
+      {
+        "id": "dndnode_6_1774266717577",
+        "data": {
+          "label": "Type Conversion",
+          "config": {
+            "column": "Trend_Time",
+            "format": "yyyy",
+            "newColumn": "Trend_Year",
+            "writeMode": "new",
+            "conversionType": "date_format"
+          }
+        },
+        "type": "Type Conversion",
+        "style": {
+          "width": 198,
+          "height": 70
+        },
+        "dragging": false,
+        "measured": {
+          "width": 198,
+          "height": 70
+        },
+        "position": {
+          "x": 1803.7812754808826,
+          "y": 257.50782488990194
+        },
+        "selected": false
+      }
+    ]
+  }
+}
