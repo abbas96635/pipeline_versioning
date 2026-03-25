@@ -1,7 +1,7 @@
 {
   "pipeline_name": "AQI_Pipeline",
   "domain": "IOT",
-  "version": "5.0",
+  "version": "3.0",
   "definition": {
     "edges": [
       {
@@ -153,6 +153,35 @@
       }
     ],
     "nodes": [
+      {
+        "id": "dndnode_0_1774006439144",
+        "data": {
+          "label": "Derived Column",
+          "config": {
+            "mode": "create",
+            "type": "others",
+            "operation": "element_at",
+            "sourceColumn": "trendTimeBucketsUserTimezone",
+            "newColumnName": "TREND_PACKET_DATE",
+            "elementAtIndex": 1
+          }
+        },
+        "type": "Derived Column",
+        "style": {
+          "width": 198,
+          "height": 70
+        },
+        "dragging": false,
+        "measured": {
+          "width": 198,
+          "height": 70
+        },
+        "position": {
+          "x": 297.094,
+          "y": -70.12066463216148
+        },
+        "selected": false
+      },
       {
         "id": "dndnode_1_1774008008276",
         "data": {
@@ -831,17 +860,6 @@
           "y": 257.50782488990194
         },
         "selected": false
-      },
-      {
-        "id": "test_node",
-        "data": {
-          "label": "New Node"
-        },
-        "type": "Test",
-        "position": {
-          "x": 0,
-          "y": 0
-        }
       }
     ]
   }
