@@ -1,6 +1,7 @@
 {
   "pipeline_name": "AQI_Pipeline",
-  "version": "1.1",
+  "domain": "IOT",
+  "version": "5.0",
   "definition": {
     "edges": [
       {
@@ -153,11 +154,40 @@
     ],
     "nodes": [
       {
+        "id": "dndnode_1_1774008008276",
+        "data": {
+          "label": "Type Conversion",
+          "config": {
+            "columns": [
+              "TREND_PACKET_DATE"
+            ],
+            "dataType": "date",
+            "writeMode": "replace",
+            "conversionType": "cast"
+          }
+        },
+        "type": "Type Conversion",
+        "style": {
+          "width": 198,
+          "height": 70
+        },
+        "dragging": false,
+        "measured": {
+          "width": 198,
+          "height": 70
+        },
+        "position": {
+          "x": 567.0939999999999,
+          "y": -73.45399796549478
+        },
+        "selected": false
+      },
+      {
         "id": "dndnode_3_1774008185528",
         "data": {
           "label": "Data Source",
           "config": {
-            "path": "/IOT/IOT_cmvsummary_data_new2",
+            "path": "/IOT/IOT_cmvsummary_data_new1",
             "format": "parquet"
           }
         },
@@ -801,6 +831,17 @@
           "y": 257.50782488990194
         },
         "selected": false
+      },
+      {
+        "id": "test_node",
+        "data": {
+          "label": "New Node"
+        },
+        "type": "Test",
+        "position": {
+          "x": 0,
+          "y": 0
+        }
       }
     ]
   }
